@@ -404,10 +404,10 @@ line-height: 50px  ;
 .sidenav {
     height: 100%;
     width: 0;
-    position: fixed;
-    z-index: 1;
     top: 0;
     left: 0;
+    position: fixed;
+    z-index: 1;
     background-color: #111;
     overflow-x: hidden;
     transition: 0.5s;
@@ -438,7 +438,7 @@ line-height: 50px  ;
         display: inline-block;
     }
     .showimg{
-        width: 30.66%;
+        width: 30.6%;
     }
     #content{
         margin-left: 0;
