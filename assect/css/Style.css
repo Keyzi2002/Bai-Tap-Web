@@ -338,18 +338,19 @@ div#showimg1{
 #send:hover{
     background-color: #959798 !important;
 }
+/*==============================================Minh An============================================*/
 #chantrang{
-    display: flex;
-    flex-direction: row;
+    display: flex; /*Flex Css sẽ tự điều chỉnh để hiển thị trên mọi màn hình thiết bị*/
+    flex-direction: row; /*row: mặc định, flex item được sắp xếp theo chiều ngang, từ trái qua phải*/
     width: 100%;
     height: auto;
     background-color: #605d5d;
-    box-sizing: border-box;
+    box-sizing: border-box; /*width và heigh sẽ bao gồm cho cả phần content, padding và border*/
 }
 #footer, #blogposts, #populartags{
     width: 30%;
-    padding: 10px;
-    margin: 10px;
+    padding: 10px;/*sử dụng để tạo không gian xung quanh nội dung của phần tử, bên trong bất kỳ đường viền xác định nào*/
+    margin: 10px; /*căn lề*/
 }
 .imgBlogposts{
     width: 50px;
@@ -360,7 +361,7 @@ div#showimg1{
 #populartags{
     display: flex;
     height: 250px;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /*Các mục flex chia thành nhiều dòng*/
 }
 .textPopulartags{
     font-size: 14px;
@@ -369,8 +370,8 @@ div#showimg1{
     margin: 5px;
     padding: 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /*Căn lề giữa*/
+    align-items: center; /*ăn chỉnh phần tử con theo giữa*/
 }
 #khoangcachfooter{
     height: 2px;
@@ -380,8 +381,8 @@ div#showimg1{
 }
 #x{
     display: flex;
-    flex-direction: row;
-line-height: 50px  ;
+    flex-direction: row; /*row: mặc định, flex item được sắp xếp theo chiều ngang, từ trái qua phải*/
+    line-height: 50px  ;
     justify-content: center;
 }
 .cangiua{
@@ -397,6 +398,7 @@ line-height: 50px  ;
     flex-direction: row;
     justify-content: center;
 }
+/*==============================================End============================================*/
 .cangiua:hover{
     background-color: #f1f1f1;
     color: #100f0f;
