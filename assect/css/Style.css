@@ -436,7 +436,21 @@ div#showimg1{
 
 }
 @media only screen and (max-width: 1117px) {
-
+    .sidenav .closebtn{
+        display: inline-block;
+    }
+    .showimg{
+        width: 30.6%;
+    }
+    #content{
+        margin-left: 0;
+    }
+    .textPopulartags{
+        width: 25%;
+        font-size: 12px;
+        margin:  10px;
+        padding: 0;
+    }
 }
 @media only screen and (max-width: 816px) {
     .showimg{
